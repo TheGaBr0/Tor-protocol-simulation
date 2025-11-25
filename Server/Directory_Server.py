@@ -27,8 +27,8 @@ class DirectoryServer:
         self._make_network()
 
     def _make_network(self, num_guards=10, num_relays=10, num_exits=10, 
-                     guard_compromise_prob=0.4, relay_compromise_prob=0.1, 
-                     exit_compromise_prob=0.4) -> List[Node]:
+                     guard_compromise_prob=1, relay_compromise_prob=0.1, 
+                     exit_compromise_prob=1) -> List[Node]:
         """
         Create the network topology with specified number of nodes.
         Assigns random properties and determines compromise status.
