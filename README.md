@@ -85,7 +85,7 @@ Compromised nodes log timestamps, packet metadata, and symbolic IP paths.
 ### Redirection Attacks
 - Exit-node redirection to attacker-controlled destinations  
 
-### Node Compromise
+### Node Compromisation
 - Full plaintext inspection after onion-layer removal  
 - Manipulation of routing behavior  
 - Logging of circuit metadata  
@@ -97,5 +97,13 @@ Compromised nodes log timestamps, packet metadata, and symbolic IP paths.
 
 ---
 
-## Project Structure
+## Images
+
+<div align="center">
+  <img src="https://i.imgur.com/uRQxbQS.png" width="45%">
+  <img src="https://i.imgur.com/zKSF4Ie.png" width="45%">
+</div>
+
+
+![image](https://i.imgur.com/6yWn2z8.png)
 
